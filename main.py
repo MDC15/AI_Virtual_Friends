@@ -2,8 +2,8 @@ import streamlit as st
 from dotenv import load_dotenv
 
 # import components
-from index import display_chat_interface
-from server import setup_gemini_model, start_chat_session, send_message_to_gemini
+from src.index import display_chat_interface
+from src.server import setup_gemini_model, start_chat_session, send_message_to_gemini
 
 
 # Load environment variables

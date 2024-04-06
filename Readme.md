@@ -2,8 +2,8 @@
 
     ```pip install -r requirements.txt```
 
-## Run the application
+## Run the application dev mode
 
-    run: myenv\Scripts\activate
+    myenv\Scripts\activate
     cd src
     streamlit run main.py
