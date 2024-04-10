@@ -12,7 +12,7 @@ def translate_role_for_streamlit(user_role):
 # Function to display the chat interface
 def display_chat_interface(chat_session):
     # Display the chatbot's title on the page
-    st.title("🤖 Gemini Pro - AI")
+    st.title("🤖 Chat whith AI")
 
     # Display the chat history
     for message in chat_session.history:

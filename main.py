@@ -11,7 +11,7 @@ load_dotenv()
 
 # Configure Streamlit page settings
 st.set_page_config(
-    page_title="Chat with Gemini-Pro!",
+    page_title="Chat with Gemini-Pro",
     page_icon=":brain:",  # Favicon emoji
     layout="centered",  # Page layout option
 )
@@ -34,9 +34,6 @@ if user_prompt:
 
     # Send user's message to Gemini-Pro and get the response
     gemini_response = send_message_to_gemini(user_prompt, st.session_state.chat_session)
-
     # Display Gemini-Pro's response
     with st.chat_message("assistant"):
         st.markdown(gemini_response.text)
-
-print(">>> App is running...")
